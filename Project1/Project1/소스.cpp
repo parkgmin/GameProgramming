@@ -20,35 +20,35 @@
 //	return 0;
 //}
 
-#include<iostream>
-using namespace std;
-
-class CopyObj {
-public:
-	CopyObj(const double height, const double weight);
-	void ShowVar();
-private:
-	double height;
-	double weight;
-};
-
-CopyObj::CopyObj(const double height, const double weight) {
-	this->height = height;
-	this->weight = weight;
-}
-void CopyObj::ShowVar(){
-	cout << "虐 : " << height << endl;
-	cout << "个公霸 : " << weight << endl;
-}
-int main() {
-	CopyObj p1(181.5, 79.3);
-	p1.ShowVar();
-
-	cout << "-----------------------------------------------------------" << endl;
-
-	CopyObj p2(p1);
-	p2.ShowVar();
-}
+//#include<iostream>
+//using namespace std;
+//
+//class CopyObj {
+//public:
+//	CopyObj(const double height, const double weight);
+//	void ShowVar();
+//private:
+//	double height;
+//	double weight;
+//};
+//
+//CopyObj::CopyObj(const double height, const double weight) {
+//	this->height = height;
+//	this->weight = weight;
+//}
+//void CopyObj::ShowVar(){
+//	cout << "虐 : " << height << endl;
+//	cout << "个公霸 : " << weight << endl;
+//}
+//int main() {
+//	CopyObj p1(181.5, 79.3);
+//	p1.ShowVar();
+//
+//	cout << "-----------------------------------------------------------" << endl;
+//
+//	CopyObj p2(p1);
+//	p2.ShowVar();
+//}
 //#include<iostream>
 //using namespace std;
 //
@@ -94,3 +94,6 @@ int main() {
 //	cout << "dest :" << dest.getRadius() << endl;
 //	return 0;
 //}
+
+
+
